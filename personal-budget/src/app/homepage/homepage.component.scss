@@ -1,0 +1,21 @@
+/* Apply hover effect to the header */
+header:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Apply hover effect to the h1 elements inside the header */
+header:hover h1 {
+  color: #ff5733; /* Change text color on hover */
+}
+
+/* Apply hover effect to the pb-article elements */
+.pb-article:hover {
+  background-color: #f8f8f8; /* Change background color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+/* Apply hover effect to the h1 elements inside pb-article */
+.pb-article:hover h1 {
+  color: #ff5733; /* Change text color on hover */
+}
